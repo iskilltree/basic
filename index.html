@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Web Developer技能树</title>
+  <meta name="description" content="要月薪上万，你要掌握的技能还真不少。看看你掌握了哪些Web Developer所需要的技能，看看你发展到了什么程度?">
+  <meta name="google-site-verification" content="3-n5j67nVlQ0ICC3DJb28FXuJI7pEei5v2kx7AR8eHU" />
+  <meta name="keywords" content="Web技能树,web,技能">
+  <link href="app/styles/layout.css" rel="stylesheet">
+  <link href="app/styles/icon.css" rel="stylesheet">
+  <link href="app/styles/logo.css" rel="stylesheet">
+</head>
+<body>
+<div>
+  <div class="page open">
+    <div class="talent-tree">
+      <h2 class="start-helper" data-bind="css:{active:noPointsSpent}">从这开始!</h2>
+      <!--ko foreach: skills-->
+      <!--ko if: hasDependencies-->
+      <div
+        data-bind="css: { 'can-add-points': canAddPoints, 'has-points': hasPoints, 'has-max-points': hasMaxPoints }, attr: { 'data-skill-id': id }"
+        class="skill">
+        <div data-bind="css: { active: dependenciesFulfilled }" class="skill-dependency"></div>
+      </div>
+      <!--/ko-->
+      <!--/ko-->
+      <!--ko foreach: skills-->
+      <div data-bind="css: { 'can-add-points': canAddPoints, 'has-points': hasPoints, 'has-max-points': hasMaxPoints }, attr: { 'data-skill-id': id }" class="skill">
+        <div class="icon-container">
+          <div class="icon"></div>
+        </div>
+        <div class="frame">
+          <div class="tool-tip">
+            <h3 data-bind="text: title" class="skill-name"></h3>
+            <div data-bind="html: description" class="skill-description"></div>
+            <ul class="skill-links">
+              相关博客或内容:
+              <!--ko foreach: links-->
+              <li> <a data-bind="attr: { href: url }, text: label" target="_blank"></a> </li>
+              <!--/ko-->
+              相关书籍:
+              <!--ko foreach: books-->
+              <li> <a data-bind="attr: { href: url }, text: label" target="_blank"></a> </li>
+              <!--/ko-->
+            </ul>
+            <hr data-bind="visible: currentRankDescription() || nextRankDescription()">
+            <div data-bind="if: currentRankDescription" class="current-rank-description">当前: <span
+              data-bind="	text: currentRankDescription"></span></div>
+            <div data-bind="if: nextRankDescription" class="next-rank-description">下一个: <span
+              data-bind="	text: nextRankDescription"></span></div>
+            <hr>
+            <ul class="stats">
+              <!--ko foreach: stats-->
+              <li><span class="value">+<span data-bind="text: value"></span></span> <span data-bind="	text: title" class="title"></span></li>
+              <!--/ko-->
+            </ul>
+            <!--ko if: talentSummary-->
+            <div class="talent-summary">技能 <span data-bind="text: talentSummary"></span></div>
+            <!--/ko-->
+            <div data-bind="text: helpMessage" class="help-message"></div>
+          </div>
+          <div class="skill-points"><span data-bind="text: points" class="points"></span>/<span data-bind="	text: maxPoints" class="max-points"></span></div>
+          <div data-bind="click: addPoint, rightClick: removePoint" class="hit-area"></div>
+        </div>
+      </div>
+      <!--/ko-->
+    </div>
+  </div>
+</div>
+<script type="text/javascript" data-main="app/scripts/main.js" src="app/lib/require.js"></script>
+</body>
+</html>
