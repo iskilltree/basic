@@ -42,14 +42,4 @@ describe('Utils', function () {
       html_skill.title.should.equal('HTML');
     });
   });
-  describe('Get Skill by Hash', function () {
-    it('should return skill when use hash', function () {
-      var hash = '_a2_1_Name';
-      var asciiOffset = 96;
-      var skills = ko.observableArray(ko.utils.arrayMap(all_skills.skills, function (item) {
-        return new Skill(item);
-      }));
-      Utils.getSkillsByHash(hash, skills(), asciiOffset)[0].skill.id.should.equal(1);
-    });
-  });
 });
