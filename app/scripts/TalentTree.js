@@ -6,15 +6,15 @@ define(['lib/knockout', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
 			var self = this;
 
 			//技能列表
-			self.skills = ko.observableArray(ko.utils.arrayMap(e.skills, function (item) {
-				return new Skill(item);
+			self.skills = ko.observableArray(ko.utils.arrayMap(e.skills, function (skill) {
+				return new Skill(skill);
 			}));
 
 			//Wire up dependency references
-			ko.utils.arrayForEach(e.skills, function (item) {
-				if (item.dependsOn) {
-					var dependent = Utils.getSkillById(self.skills(), item.id);
-					ko.utils.arrayForEach(item.dependsOn, function (dependencyId) {
+			ko.utils.arrayForEach(e.skills, function (skill) {
+				if (skill.dependsOn) {
+					var dependent = Utils.getSkillById(self.skills(), skill.id);
+					ko.utils.arrayForEach(skill.dependsOn, function (dependencyId) {
 						var dependency = Utils.getSkillById(self.skills(), dependencyId);
 						dependent.dependencies.push(dependency);
 						dependency.dependents.push(dependent);
