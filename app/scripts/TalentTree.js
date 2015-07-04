@@ -1,7 +1,7 @@
 define(['lib/knockout', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
 	function (ko, Link, Skill, Utils) {
 		'use strict';
-		var TalentTree = function (_e) {
+		return function (_e) {
 			var e = _e || {};
 			var self = this;
 
@@ -22,21 +22,10 @@ define(['lib/knockout', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
 				}
 			});
 
-			self.level = ko.computed(function () {
-				var totalSkillPoints = 0, totalLevel;
-				ko.utils.arrayForEach(self.skills(), function (skill) {
-					totalSkillPoints += skill.points();
-				});
-				totalLevel = totalSkillPoints + 1;
-				return totalLevel;
-			});
-
 			self.noPointsSpent = ko.computed(function () {
 				return !Boolean(ko.utils.arrayFirst(self.skills(), function (skill) {
 					return (skill.points() > 0);
 				}));
 			});
 		};
-
-		return TalentTree;
 	});

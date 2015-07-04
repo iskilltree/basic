@@ -15,9 +15,7 @@
       <h2 class="start-helper" data-bind="css:{active:noPointsSpent}">从这开始!</h2>
       <!--ko foreach: skills-->
       <!--ko if: hasDependencies-->
-      <div
-        data-bind="css: { 'can-add-points': canAddPoints, 'has-points': hasPoints, 'has-max-points': hasMaxPoints }, attr: { 'data-skill-id': id }"
-        class="skill">
+      <div data-bind="css: { 'can-add-points': canAddPoints, 'has-points': hasPoints, 'has-max-points': hasMaxPoints }, attr: { 'data-skill-id': id }" class="skill">
         <div data-bind="css: { active: dependenciesFulfilled }" class="skill-dependency"></div>
       </div>
       <!--/ko-->
@@ -38,8 +36,8 @@
               <!--/ko-->
             </ul>
             <hr data-bind="visible: currentRankDescription()">
-            <div data-bind="if: currentRankDescription" class="current-rank-description">当前: <span
-              data-bind="	text: currentRankDescription"></span></div>
+            <div data-bind="if: currentRankDescription" class="current-rank-description">当前:
+                <span data-bind="text: currentRankDescription"></span></div>
             <div data-bind="text: helpMessage" class="help-message"></div>
           </div>
           <div class="skill-points"><span data-bind="text: points" class="points"></span>/<span data-bind="	text: maxPoints" class="max-points"></span></div>

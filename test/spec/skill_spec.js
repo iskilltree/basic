@@ -41,8 +41,6 @@ describe('Skill', function () {
       var _skill = new Skill(html_skill);
       _skill.links[0].label.should.equal('无处不在的html');
       _skill.links[0].url.should.equal('http://www.phodal.com/blog/be-a-geek-chapter-1-anywhere-html/');
-      _skill.books[0].label.should.equal('Head First HTML与CSS');
-      _skill.books[0].url.should.equal('http://www.amazon.cn/Head-First-HTML%E4%B8%8ECSS-%E7%BD%97%E5%B8%83%E6%A3%AE/dp/B00FF3P8FY/ref=sr_1_1?ie=UTF8&qid=1424182950&sr=8-1&keywords=html');
     });
   });
 
@@ -52,13 +50,6 @@ describe('Skill', function () {
       _skill.addPoint();
       _skill.addPoint();
       _skill.canAddPoints().should.equal(false);
-      _skill.canRemovePoints().should.equal(true);
-    });
-
-    it('should able add or remove point after add 1 point', function () {
-      var _skill = new Skill(html_skill);
-      _skill.addPoint();
-      _skill.canAddPoints().should.equal(true);
       _skill.canRemovePoints().should.equal(true);
     });
   });
@@ -83,13 +74,6 @@ describe('Skill', function () {
       var _skill = new Skill(css_skill);
       _skill.addPoint();
       _skill.currentRankDescription().should.equal('熟悉基础CSS的格式和CSS盒模式');
-      _skill.nextRankDescription().should.equal('熟悉媒体查询和响应式设计，使得设计有适配不同的移动');
-    });
-    it('should return empty next description', function () {
-      var _skill = new Skill(css_skill);
-      _skill.addPoint();
-      _skill.addPoint();
-      _skill.currentRankDescription().should.equal('熟悉媒体查询和响应式设计，使得设计有适配不同的移动');
     });
   });
 });

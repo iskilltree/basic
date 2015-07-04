@@ -23,7 +23,7 @@
 }
 
 .skill[data-skill-id="1"] .icon {
-    background-position: -240px 0px;
+    background-position: -240px 0;
 }
 
 .skill[data-skill-id="2"] {
@@ -41,7 +41,7 @@
 }
 
 .skill[data-skill-id="3"] .icon {
-    background-position: -420px 0px;
+    background-position: -420px 0;
 }
 
 .skill[data-skill-id="4"] {
@@ -59,7 +59,7 @@
 }
 
 .skill[data-skill-id="5"] .icon {
-    background-position: 0px -120px;
+    background-position: 0 -120px;
 }
 
 .skill[data-skill-id="6"] {
@@ -68,7 +68,7 @@
 }
 
 .skill[data-skill-id="6"] .icon {
-    background-position: -360px 0px;
+    background-position: -360px 0;
 }
 
 .skill[data-skill-id="7"] {
@@ -77,7 +77,7 @@
 }
 
 .skill[data-skill-id="7"] .icon {
-    background-position: 0px 0px;
+    background-position: 0 0;
 }
 
 .skill[data-skill-id="8"] {
@@ -95,7 +95,7 @@
 }
 
 .skill[data-skill-id="9"] .icon {
-    background-position: -300px 0px;
+    background-position: -300px 0;
 }
 
 .skill[data-skill-id="10"] {
@@ -189,7 +189,7 @@
 }
 
 .skill[data-skill-id="20"] {
-    left: 0px;
+    left: 0;
     top: 260px;
 }
 
@@ -221,7 +221,7 @@
 }
 
 .skill[data-skill-id="23"] .icon {
-    background-position: -480px 0px;
+    background-position: -480px 0;
 }
 
 .skill[data-skill-id="24"] {
@@ -248,7 +248,7 @@
 }
 
 .skill[data-skill-id="26"] .icon {
-    background-position: -120px 0px;
+    background-position: -120px 0;
 }
 
 .skill[data-skill-id="27"] {

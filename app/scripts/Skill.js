@@ -1,7 +1,7 @@
 define(['lib/knockout', 'scripts/Link', 'scripts/Utils'],
 	function (ko, Link, Utils) {
 		'use strict';
-		var Skill = function (_e) {
+		return function (_e) {
 			var e = _e || {};
 			var self = this;
 
@@ -91,6 +91,4 @@ define(['lib/knockout', 'scripts/Link', 'scripts/Utils'],
 				}
 			};
 		};
-
-		return Skill;
 	});
