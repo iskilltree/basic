@@ -49,15 +49,6 @@
               data-bind="	text: currentRankDescription"></span></div>
             <div data-bind="if: nextRankDescription" class="next-rank-description">下一个: <span
               data-bind="	text: nextRankDescription"></span></div>
-            <hr>
-            <ul class="stats">
-              <!--ko foreach: stats-->
-              <li><span class="value">+<span data-bind="text: value"></span></span> <span data-bind="	text: title" class="title"></span></li>
-              <!--/ko-->
-            </ul>
-            <!--ko if: talentSummary-->
-            <div class="talent-summary">技能 <span data-bind="text: talentSummary"></span></div>
-            <!--/ko-->
             <div data-bind="text: helpMessage" class="help-message"></div>
           </div>
           <div class="skill-points"><span data-bind="text: points" class="points"></span>/<span data-bind="	text: maxPoints" class="max-points"></span></div>
