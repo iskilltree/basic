@@ -41,6 +41,7 @@ gulp.task('watch', ['connect'], function () {
 	gulp.watch([
 		'index.html',
 		'app/scripts/**/*.js',
+		'app/styles/**/*.css',
 		'app/images/**/*'
 	]).on('change', $.livereload.changed);
 });
