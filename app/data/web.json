@@ -5,8 +5,7 @@
       "title": "HTML",
       "description": "Internet主要由从服务器通过HTTP协议向浏览器发送的HTML文档组成。HTML被用来结构化信息——例如标题、段落和列表等等，也可用来在一定程度上描述文档的外观和语义。",
       "rankDescriptions": [
-        "理解如何创建和浏览一个基本的网页",
-        "理解网页间是如何链接的、如何设计多列布局，可以处理表单字段和媒体元素"
+        "理解如何创建和浏览一个基本的网页"
       ],
       "links": [
         {
@@ -22,20 +21,6 @@
         {
           "label": "图灵程序设计丛书:HTML5权威指南",
           "url": "http://www.amazon.cn/%E5%9B%BE%E7%81%B5%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1…9B%BC/dp/B00H706BIG/ref=sr_1_4?ie=UTF8&qid=1424220765&sr=8-4&keywords=html"
-        }
-      ],
-      "stats": [
-        {
-          "title": "智力",
-          "value": 1
-        },
-        {
-          "title": "魅力",
-          "value": 1
-        },
-        {
-          "title": "力量",
-          "value": 1
         }
       ]
     },
@@ -69,15 +54,8 @@
           "url": "http://www.amazon.cn/CSS%E7%A6%85%E6%84%8F%E8%8A%B1%E5%9B%AD-%E8%B0%A2%E4%BC%8A/dp/B008HN791U/ref=sr_1_3?ie=UTF8&qid=1424220922&sr=8-3&keywords=css"
         }
       ],
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 3
-        }
-      ],
       "rankDescriptions": [
-        "熟悉基础CSS的格式和CSS盒模式",
-        "熟悉媒体查询和响应式设计，使得设计有适配不同的移动"
+        "熟悉基础CSS的格式和CSS盒模式"
       ],
       "description": "CSS能够对网页中的对象的位置排版进行像素级的精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力，并能够进行初步交互设计。",
       "talents": [
@@ -115,20 +93,9 @@
         }
       ],
       "rankDescriptions": [
-        "熟悉变量和嵌套",
-        "可以使用高级工具写你自己的代码，如mix-ins"
+        "熟悉变量和嵌套"
       ],
-      "description": "LESS与SASS可以帮助你用变量、函数和嵌套编写更加结构化和高效的CSS",
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 2
-        },
-        {
-          "title": "灵巧",
-          "value": 1
-        }
-      ]
+      "description": "LESS与SASS可以帮助你用变量、函数和嵌套编写更加结构化和高效的CSS"
     },
     {
       "id": 4,
@@ -146,13 +113,7 @@
           "url": "http://www.amazon.cn/%E5%86%99%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9A%84Web%E8%AE%BE%E8%AE%A1%E4%B9%A6-%E4%B8%BD%E8%8E%8E%C2%B7%E6%B4%9B%E6%99%AE%E5%85%8B/dp/B00NG9MOO2/ref=sr_1_1?s=books&ie=UTF8&qid=1424747761&sr=1-1&keywords=%E5%86%99%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9A%84Web%E8%AE%BE%E8%AE%A1%E4%B9%A6"
         }
       ],
-      "description": "可以将设计转化为HTML与CSS",
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 10
-        }
-      ]
+      "description": "可以将设计转化为HTML与CSS"
     },
     {
       "id": 5,
@@ -185,24 +146,9 @@
         }
       ],
       "rankDescriptions": [
-        "熟练操作DOM模型",
-        "能熟练添加标准的动画效果到网页上",
-        "能创造或添加自定义效果到网页上"
+        "熟练操作DOM模型"
       ],
-      "description": "jQuery提供技术和方法在前端操纵网页元素。",
-      "talents": [
-        "咝咝"
-      ],
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 2
-        },
-        {
-          "title": "灵巧",
-          "value": 1
-        }
-      ]
+      "description": "jQuery提供技术和方法在前端操纵网页元素。"
     },
     {
       "id": 6,
@@ -234,17 +180,7 @@
           "url": "http://www.amazon.cn/SEO%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90-%E5%85%A8%E9%9…%91%9E/dp/B00IRQVFSU/ref=sr_1_2?ie=UTF8&qid=1424223774&sr=8-2&keywords=SEO"
         }
       ],
-      "description": "SEO是指从自然搜索结果获得网站流量的技术和过程。",
-      "stats": [
-        {
-          "title": "智力",
-          "value": 2
-        },
-        {
-          "title": "智慧",
-          "value": 1
-        }
-      ]
+      "description": "SEO是指从自然搜索结果获得网站流量的技术和过程。"
     },
     {
       "id": 7,
@@ -276,20 +212,7 @@
           "url": "http://www.amazon.cn/%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%98%E5%AF%86-Google-A…e=UTF8&qid=1424223920&sr=8-3&keywords=%E7%BD%91%E7%AB%99%E5%88%86%E6%9E%90"
         }
       ],
-      "description": "仅仅做到被搜索引擎收录 并且在搜索结果中排名靠前还很不够，因为取得这样的效果实际上并不一定能增加用户的点击率，更不能保证将访问者转化为顾客或者潜在顾客，因此只能说是搜索引擎营销策略中两个最基本的目标。 SEM追求最高的性价比，以最小的投入，获最大的来自搜索引擎的访问量，并产生商业价值。",
-      "stats": [
-        {
-          "title": "智力",
-          "value": 1
-        },
-        {
-          "title": "智慧",
-          "value": 2
-        }
-      ],
-      "talents": [
-        "狡猾"
-      ]
+      "description": "仅仅做到被搜索引擎收录 并且在搜索结果中排名靠前还很不够，因为取得这样的效果实际上并不一定能增加用户的点击率，更不能保证将访问者转化为顾客或者潜在顾客，因此只能说是搜索引擎营销策略中两个最基本的目标。 SEM追求最高的性价比，以最小的投入，获最大的来自搜索引擎的访问量，并产生商业价值。"
     },
     {
       "id": 8,
@@ -298,9 +221,7 @@
         1
       ],
       "rankDescriptions": [
-        "熟悉JavaScript基本语法",
-        "熟练使用闭包、高级函数、立即执行函数(匿名函数)等",
-        "熟练使用元编程，解决Callback等"
+        "熟悉JavaScript基本语法"
       ],
       "links": [
         {
@@ -330,13 +251,7 @@
           "url": "http://www.amazon.cn/Effective-JavaScript-%E7%BC%96%E5%86%99%E9%AB%98%E8%B4…/B00GMXI1QY/ref=sr_1_13?ie=UTF8&qid=1424309806&sr=8-13&keywords=javascript"
         }
       ],
-      "description": "JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。",
-      "stats": [
-        {
-          "title": "灵巧",
-          "value": 3
-        }
-      ]
+      "description": "JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。"
     },
     {
       "id": 9,
@@ -345,8 +260,7 @@
         8
       ],
       "rankDescriptions": [
-        "熟练使用jQuery, MooTools, Prototype, Dojo, YUI等框架简单工作",
-        "熟练使用KnockoutJS, Ember.js, AngularJS, 及Backbone.js等框架完成复杂的前端功能"
+        "熟练使用jQuery, MooTools, Prototype, Dojo, YUI等框架简单工作"
       ],
       "books": [
         {
@@ -376,20 +290,7 @@
           "url": "http://jquery.com/"
         }
       ],
-      "description": "当你熟悉了JavaScript之后，会发现有大量的库和框架可以完成相同的任务，加速你的开发",
-      "stats": [
-        {
-          "title": "灵巧",
-          "value": 2
-        },
-        {
-          "title": "智慧",
-          "value": 1
-        }
-      ],
-      "talents": [
-        "灵活"
-      ]
+      "description": "当你熟悉了JavaScript之后，会发现有大量的库和框架可以完成相同的任务，加速你的开发"
     },
     {
       "id": 10,
@@ -405,12 +306,6 @@
         {
           "label": "JavaScript框架设计",
           "url": "http://www.amazon.cn/JavaScript%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1-%E5%8F%B8%E5%BE%92%E6%AD%A3%E7%BE%8E/dp/B00JD96R2Y/ref=sr_1_9?s=books&ie=UTF8&qid=1424747885&sr=1-9&keywords=%E6%A1%86%E6%9E%B6"
-        }
-      ],
-      "stats": [
-        {
-          "title": "灵巧",
-          "value": 10
         }
       ]
     },
@@ -446,20 +341,7 @@
           "url": "http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks"
         }
       ],
-      "description": "Web应用框架有助于减轻网页开发时共通性活动的工作负荷，例如许多框架提供数据库访问接口、标准样板以及会话管理等，可提升代码的可再用性。",
-      "stats": [
-        {
-          "title": "力量",
-          "value": 2
-        },
-        {
-          "title": "智慧",
-          "value": 1
-        }
-      ],
-      "talents": [
-        "美型男"
-      ]
+      "description": "Web应用框架有助于减轻网页开发时共通性活动的工作负荷，例如许多框架提供数据库访问接口、标准样板以及会话管理等，可提升代码的可再用性。"
     },
     {
       "id": 13,
@@ -489,16 +371,9 @@
         }
       ],
       "rankDescriptions": [
-        "理解如何创建表",
-        "理解关系数据库如何组织数据"
+        "理解如何创建表"
       ],
-      "description": "数据库是依照某种数据模型组织起来并存放二级存储器中的数据集合。这种数据集合具有如下特点：尽可能不重复，以最优方式为某个特定组织的多种应用服务，其数据结构独立于使用它的应用程序，对数据的增、删、改、查由统一软件进行管理和控制。",
-      "stats": [
-        {
-          "title": "力量",
-          "value": 3
-        }
-      ]
+      "description": "数据库是依照某种数据模型组织起来并存放二级存储器中的数据集合。这种数据集合具有如下特点：尽可能不重复，以最优方式为某个特定组织的多种应用服务，其数据结构独立于使用它的应用程序，对数据的增、删、改、查由统一软件进行管理和控制。"
     },
     {
       "id": 14,
@@ -531,23 +406,9 @@
         }
       ],
       "rankDescriptions": [
-        "能写存储过程和自定义函数,使得查询更高效",
-        "能检测出影响性能的缺陷"
+        "能写存储过程和自定义函数,使得查询更高效"
       ],
-      "description": "仅仅架构数据库是不够的,数据库还需要优化或调整,以提高性能.除了基本的表和关系数据,数据库允许创建存储过程,这一些SQL语句被存在数据库中.MySQL支持用户自定义函数（UDF, User-Defined Functions）.",
-      "stats": [
-        {
-          "title": "力量",
-          "value": 2
-        },
-        {
-          "title": "灵巧",
-          "value": 1
-        }
-      ],
-      "talents": [
-        "XXL 背包"
-      ]
+      "description": "仅仅架构数据库是不够的,数据库还需要优化或调整,以提高性能.除了基本的表和关系数据,数据库允许创建存储过程,这一些SQL语句被存在数据库中.MySQL支持用户自定义函数（UDF, User-Defined Functions）."
     },
     {
       "id": 15,
@@ -570,13 +431,7 @@
         12,
         14
       ],
-      "description": "你有能力设计和构建应用程序的后台,同时高效地存储和检索数据。",
-      "stats": [
-        {
-          "title": "力量",
-          "value": 10
-        }
-      ]
+      "description": "你有能力设计和构建应用程序的后台,同时高效地存储和检索数据。"
     },
     {
       "id": 16,
@@ -602,16 +457,7 @@
           "url": "http://msdn.microsoft.com/en-us/library/wce3kxhd(v=vs.100).aspx"
         }
       ],
-      "description": "认证的过程是确定某人或某事是否是谁或什么。授权是当用户被允许执行动作或具有对资源的访问确定的过程。",
-      "stats": [
-        {
-          "title": "坚韧",
-          "value": 5
-        }
-      ],
-      "talents": [
-        "真理探寻者"
-      ]
+      "description": "认证的过程是确定某人或某事是否是谁或什么。授权是当用户被允许执行动作或具有对资源的访问确定的过程。"
     },
     {
       "id": 17,
@@ -648,31 +494,13 @@
           "url": "http://www.amazon.cn/Ajax%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E8%B5%AB%E5%B0%94%E5%BE%B7%E5%B0%94/dp/B002T9VGG2/ref=sr_1_4?ie=UTF8&qid=1424745464&sr=8-4&keywords=ajax"
         }
       ],
-      "description": "API是一些预先定义的函数，目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而又无需访问源码，或理解内部工作机制的细节。通过在后台与服务器进行少量数据交换，AJAX 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。",
-      "stats": [
-        {
-          "title": "力量",
-          "value": 1
-        },
-        {
-          "title": "灵巧",
-          "value": 1
-        },
-        {
-          "title": "智力",
-          "value": 1
-        }
-      ],
-      "talents": [
-        "心灵编织"
-      ]
+      "description": "API是一些预先定义的函数，目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而又无需访问源码，或理解内部工作机制的细节。通过在后台与服务器进行少量数据交换，AJAX 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。"
     },
     {
       "id": 18,
       "title": "用户探索",
       "rankDescriptions": [
-        "你知道要问的问题,可以用草图来明确你的想法",
-        "你可以使用先进的技术，如经验映射去指导利益相关方的对话。"
+        "你知道要问的问题,可以用草图来明确你的想法"
       ],
       "links": [
         {
@@ -699,8 +527,7 @@
       "id": 19,
       "title": "平面设计",
       "rankDescriptions": [
-        "能创建传达明确信息的平衡,补充布局",
-        "了解如何创建一个引人注目的独特设计，它支持传统的设计值，以及您的基础信息。"
+        "能创建传达明确信息的平衡,补充布局"
       ],
       "dependsOn": [
         18
@@ -741,16 +568,7 @@
           "url": "http://www.amazon.cn/%E7%82%B9%E7%9F%B3%E6%88%90%E9%87%91-%E8%AE%BF%E5%AE%A2%E8%87%B3%E4%B8%8A%E7%9A%84%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E7%A7%98%E7%AC%88-Steve-Krug/dp/B0011BTJV8/ref=sr_1_27?ie=UTF8&qid=1424746981&sr=8-27&keywords=%E8%AE%BE%E8%AE%A1"
         }
       ],
-      "description": "平面设计是以“视觉”作为沟通和表现的方式，透过多种方式来创造和结合符号、图片和文字，借此作出用来传达想法或讯息的视觉表现。",
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 3
-        }
-      ],
-      "talents": [
-        "艺术家"
-      ]
+      "description": "平面设计是以“视觉”作为沟通和表现的方式，透过多种方式来创造和结合符号、图片和文字，借此作出用来传达想法或讯息的视觉表现。"
     },
     {
       "id": 20,
@@ -778,17 +596,7 @@
           "url": "http://www.amazon.cn/Adobe-Photoshop-CS6%E6%A0%87%E5%87%86%E5%9F%B9%E8%AE%AD%E6%95%99%E6%9D%90-ACAA%E4%B8%93%E5%AE%B6%E5%A7%94%E5%91%98%E4%BC%9A/dp/B00AD2D4QM/ref=sr_1_12?s=books&ie=UTF8&qid=1424747376&sr=1-12&keywords=photoshop"
         }
       ],
-      "description": "用如Photoshop之类的软件与手绘板一起创建布局、字体排印、视觉艺术、版面等以添加专业润色你的设计。",
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 2
-        },
-        {
-          "title": "智力",
-          "value": 1
-        }
-      ]
+      "description": "用如Photoshop之类的软件与手绘板一起创建布局、字体排印、视觉艺术、版面等以添加专业润色你的设计。"
     },
     {
       "id": 21,
@@ -820,20 +628,7 @@
           "url": "http://www.amazon.cn/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%8D%89%E5%9B%BE%E8%AE%BE%E8%AE%A1%E5%B7%A5%E5%85%B7%E6%89%8B%E5%86%8C-%E6%AF%94%E5%B0%94%C2%B7%E5%B7%B4%E5%85%8B%E6%96%AF%E9%A1%BF/dp/B00K67SPX6/ref=sr_1_4?s=books&ie=UTF8&qid=1424747535&sr=1-4&keywords=%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C"
         }
       ],
-      "description": "产品原型可以概括的说是整个产品面市之前的一个框架设计。以网站注册作为例子,整个前期的交互设计流程图之后,就是原形开发的设计阶段,简单的来说是将页面的模块、原素、人机交互的形式，利用线框描述的方法，将产品脱离皮肤状态下更加具体跟生动的进行表达.",
-      "stats": [
-        {
-          "title": "智慧",
-          "value": 1
-        },
-        {
-          "title": "智力",
-          "value": 2
-        }
-      ],
-      "talents": [
-        "咒术师"
-      ]
+      "description": "产品原型可以概括的说是整个产品面市之前的一个框架设计。以网站注册作为例子,整个前期的交互设计流程图之后,就是原形开发的设计阶段,简单的来说是将页面的模块、原素、人机交互的形式，利用线框描述的方法，将产品脱离皮肤状态下更加具体跟生动的进行表达."
     },
     {
       "id": 22,
@@ -848,17 +643,7 @@
           "url": "http://www.amazon.cn/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E8%A6%81%E7%B4%A0…E8VDS/ref=sr_1_2?ie=UTF8&qid=1424396126&sr=8-2&keywords=%E7%94%A8%E6%88%B7"
         }
       ],
-      "description": "能够依靠的项目要求变成一个有吸引力的设计，促进了愉快的用户体验。",
-      "stats": [
-        {
-          "title": "智慧",
-          "value": 1
-        },
-        {
-          "title": "魅力",
-          "value": 2
-        }
-      ]
+      "description": "能够依靠的项目要求变成一个有吸引力的设计，促进了愉快的用户体验。"
     },
     {
       "id": 23,
@@ -878,20 +663,7 @@
           "url": "http://www.amazon.cn/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E5%BA%A6%E9%87%8F-%E9%87%8F%E5%8C%96%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E7%9A%84%E7%BB%9F%E8%AE%A1%E5%AD%A6%E6%96%B9%E6%B3%95-%E9%82%B5%E7%BD%97/dp/B00JL2ZNX2/ref=sr_1_3?s=books&ie=UTF8&qid=1424747535&sr=1-3&keywords=%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C"
         }
       ],
-      "description": "它是一种技术，也被称为可用性测试，所使用的用户测试它来评估一个网站。",
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 1
-        },
-        {
-          "title": "智慧",
-          "value": 2
-        }
-      ],
-      "talents": [
-        "炼金"
-      ]
+      "description": "它是一种技术，也被称为可用性测试，所使用的用户测试它来评估一个网站。"
     },
     {
       "id": 24,
@@ -909,19 +681,9 @@
         }
       ],
       "rankDescriptions": [
-        "能够在新的环境(操作系统)中搭建你的应用",
-        "熟悉HTTP服务器模块的编译、使用"
+        "能够在新的环境(操作系统)中搭建你的应用"
       ],
-      "description": "无论是哪种类型的语言都需要一个Web服务器来运行，不同语言可能会限制Web服务器，学习Web服务器的配置将会帮助网站更好的运行。",
-      "stats": [
-        {
-          "title": "坚韧",
-          "value": 3
-        }
-      ],
-      "talents": [
-        "监管者"
-      ]
+      "description": "无论是哪种类型的语言都需要一个Web服务器来运行，不同语言可能会限制Web服务器，学习Web服务器的配置将会帮助网站更好的运行。"
     },
     {
       "id": 25,
@@ -954,23 +716,9 @@
         }
       ],
       "rankDescriptions": [
-        "能最小化公共文件(js,css)和服务压缩(gzip)以节省带宽,同时提高网站速度",
-        "确保敏感流量通过HTTPS,并使用SSL证书"
+        "能最小化公共文件(js,css)和服务压缩(gzip)以节省带宽,同时提高网站速度"
       ],
-      "description": "在与世界分享你的应用程序，请在服务器上的安全性和性能的最佳实践。",
-      "stats": [
-        {
-          "title": "坚韧",
-          "value": 2
-        },
-        {
-          "title": "灵巧",
-          "value": 1
-        }
-      ],
-      "talents": [
-        "频谱指南"
-      ]
+      "description": "在与世界分享你的应用程序，请在服务器上的安全性和性能的最佳实践。"
     },
     {
       "id": 26,
@@ -1003,36 +751,7 @@
           "url": "http://en.wikipedia.org/wiki/Web_development"
         }
       ],
-      "description": "这里指的是设计，制造和维护一个网站。",
-      "stats": [
-        {
-          "title": "魅力",
-          "value": 3
-        },
-        {
-          "title": "灵巧",
-          "value": 3
-        },
-        {
-          "title": "坚韧",
-          "value": 3
-        },
-        {
-          "title": "智力",
-          "value": 3
-        },
-        {
-          "title": "力量",
-          "value": 3
-        },
-        {
-          "title": "智慧",
-          "value": 3
-        }
-      ],
-      "talents": [
-        "半仙"
-      ]
+      "description": "这里指的是设计，制造和维护一个网站。"
     }
   ]
 }
