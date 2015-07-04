@@ -11,15 +11,4 @@ define(['jquery', 'lib/knockout'], function ($, ko) {
       });
     }
   };
-
-  ko.bindingHandlers.middleClick = {
-    init: function (element, valueAccessor) {
-      $(element).on('mousedown', function (event) {
-        if (event.which === 2) {
-          valueAccessor()();
-        }
-      });
-    }
-  };
-
 });
