@@ -15,10 +15,7 @@ define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
           return new Book(item);
         });
       } else {
-        self.books = {
-          name: '',
-          url: ''
-        };
+        self.books = { name: '', url: ''};
       }
       self.links = ko.utils.arrayMap(e.links, function (item) {
         return new Link(item);
@@ -29,7 +26,7 @@ define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
       self.rankDescriptions = e.rankDescriptions || [];
       self.talents = e.talents || [];
 
-      //Computed values
+      //计算值
       self.hasDependencies = ko.computed(function () {
         return self.dependencies().length > 0;
       });
@@ -51,6 +48,7 @@ define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
         });
         return result;
       });
+
       self.hasPoints = ko.computed(function () {
         return self.points() > 0;
       });
@@ -66,6 +64,7 @@ define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
       self.canRemovePoints = ko.computed(function () {
         return (self.dependentsUsed() && self.hasMultiplePoints()) || (!self.dependentsUsed() && self.hasPoints());
       });
+
       self.helpMessage = ko.computed(function () {
         if (!self.dependenciesFulfilled()) {
           var s = [];
@@ -80,6 +79,7 @@ define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
         }
         return '';
       });
+
       self.talentSummary = ko.computed(function () {
         return self.talents.join(', ');
       });
