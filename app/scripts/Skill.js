@@ -1,5 +1,5 @@
-define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
-	function (ko, Book, Link, Utils) {
+define(['lib/knockout', 'scripts/Link', 'scripts/Utils'],
+	function (ko, Link, Utils) {
 		'use strict';
 		var Skill = function (_e) {
 			var e = _e || {};
@@ -10,13 +10,6 @@ define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
 			self.description = e.description;
 			self.maxPoints = e.maxPoints || 1;
 			self.points = ko.observable(e.points || 0);
-			if (e.books !== undefined) {
-				self.books = ko.utils.arrayMap(e.books, function (item) {
-					return new Book(item);
-				});
-			} else {
-				self.books = {name: '', url: ''};
-			}
 			self.links = ko.utils.arrayMap(e.links, function (item) {
 				return new Link(item);
 			});
@@ -85,9 +78,6 @@ define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Utils'],
 			});
 			self.currentRankDescription = ko.computed(function () {
 				return self.rankDescriptions[self.points() - 1];
-			});
-			self.nextRankDescription = ko.computed(function () {
-				return self.rankDescriptions[self.points()];
 			});
 
 			self.addPoint = function () {

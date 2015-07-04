@@ -1,5 +1,5 @@
-define(['lib/knockout', 'scripts/Book', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
-	function (ko, Book, Link, Skill, Utils) {
+define(['lib/knockout', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
+	function (ko, Link, Skill, Utils) {
 		'use strict';
 		var TalentTree = function (_e) {
 			var e = _e || {};
