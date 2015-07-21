@@ -12,7 +12,6 @@
 <div>
   <div class="page open">
     <div class="talent-tree">
-      <h2 class="start-helper" data-bind="css:{active:noPointsSpent}">从这开始!</h2>
       <!--ko foreach: skills-->
       <div data-bind="css: { 'can-add-points': canAddPoints, 'has-points': hasPoints, 'has-max-points': hasMaxPoints }, attr: { 'data-skill-id': id }" class="skill">
         <div class="icon-container">

@@ -175,17 +175,3 @@ li {
 [data-skill-id="25"] .tool-tip {
     left: -320px;
 }
-
-.start-helper {
-    background: url(../images/red-arrow.png) no-repeat left center;
-    padding-left: 55px;
-    position: absolute;
-    top: 30px;
-    left: 530px;
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
-
-.start-helper.active {
-    opacity: 1;
-}

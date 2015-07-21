@@ -5,12 +5,10 @@ define(['lib/knockout', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
 			var e = _e || {};
 			var self = this;
 
-			//技能列表
 			self.skills = ko.observableArray(ko.utils.arrayMap(e.skills, function (skill) {
 				return new Skill(skill);
 			}));
 
-			//Wire up dependency references
 			ko.utils.arrayForEach(e.skills, function (skill) {
 				if (skill.dependsOn) {
 					var dependent = Utils.getSkillById(self.skills(), skill.id);
@@ -20,12 +18,6 @@ define(['lib/knockout', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
 						dependency.dependents.push(dependent);
 					});
 				}
-			});
-
-			self.noPointsSpent = ko.computed(function () {
-				return !Boolean(ko.utils.arrayFirst(self.skills(), function (skill) {
-					return (skill.points() > 0);
-				}));
 			});
 		};
 	});
