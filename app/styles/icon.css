@@ -1,21 +1,6 @@
-/**************************************************
-	ICON POSITIONS & SPRITES
-**************************************************/
-.skill .icon {
-    width: 100%;
-    height: 100%;
-    background: url(../images/icon-sprite.png) no-repeat top left;
-    opacity: 0.35;
-    transition: all 0.3s ease-out;
-}
-
 .skill[data-skill-id="1"] {
     left: 440px;
     top: 10px;
-}
-
-.skill[data-skill-id="1"] .icon {
-    background-position: -240px 0;
 }
 
 .skill[data-skill-id="2"] {
@@ -23,17 +8,9 @@
     top: 135px;
 }
 
-.skill[data-skill-id="2"] .icon {
-    background-position: -240px -60px;
-}
-
 .skill[data-skill-id="3"] {
     left: 220px;
     top: 135px;
-}
-
-.skill[data-skill-id="3"] .icon {
-    background-position: -420px 0;
 }
 
 .skill[data-skill-id="4"] {
@@ -41,17 +18,9 @@
     top: 385px;
 }
 
-.skill[data-skill-id="4"] .icon {
-    background-position: -120px -120px;
-}
-
 .skill[data-skill-id="5"] {
     left: 220px;
     top: 385px;
-}
-
-.skill[data-skill-id="5"] .icon {
-    background-position: 0 -120px;
 }
 
 .skill[data-skill-id="6"] {
@@ -59,17 +28,9 @@
     top: 135px;
 }
 
-.skill[data-skill-id="6"] .icon {
-    background-position: -360px 0;
-}
-
 .skill[data-skill-id="7"] {
     left: 400px;
     top: 260px;
-}
-
-.skill[data-skill-id="7"] .icon {
-    background-position: 0 0;
 }
 
 .skill[data-skill-id="8"] {
@@ -77,173 +38,12 @@
     top: 135px;
 }
 
-.skill[data-skill-id="8"] .icon {
-    background-position: -240px -120px;
-}
-
 .skill[data-skill-id="9"] {
     left: 480px;
     top: 260px;
 }
 
-.skill[data-skill-id="9"] .icon {
-    background-position: -300px 0;
-}
-
 .skill[data-skill-id="10"] {
     left: 480px;
     top: 385px;
-}
-
-.skill[data-skill-id="10"] .icon {
-    background-position: -120px -180px;
-}
-
-.skill[data-skill-id="11"] {
-    left: 640px;
-    top: 135px;
-}
-
-.skill[data-skill-id="11"] .icon {
-    background-position: -60px -240px;
-}
-
-.skill[data-skill-id="12"] {
-    left: 640px;
-    top: 260px;
-}
-
-.skill[data-skill-id="12"] .icon {
-    background-position: -60px -300px;
-}
-
-.skill[data-skill-id="13"] {
-    left: 720px;
-    top: 135px;
-}
-
-.skill[data-skill-id="13"] .icon {
-    background-position: -300px -120px;
-}
-
-.skill[data-skill-id="14"] {
-    left: 720px;
-    top: 260px;
-}
-
-.skill[data-skill-id="14"] .icon {
-    background-position: -300px -180px;
-}
-
-.skill[data-skill-id="15"] {
-    left: 680px;
-    top: 385px;
-}
-
-.skill[data-skill-id="15"] .icon {
-    background-position: -120px -60px;
-}
-
-.skill[data-skill-id="16"] {
-    left: 780px;
-    top: 385px;
-}
-
-.skill[data-skill-id="16"] .icon {
-    background-position: -180px -120px;
-}
-
-.skill[data-skill-id="17"] {
-    left: 580px;
-    top: 385px;
-}
-
-.skill[data-skill-id="17"] .icon {
-    background-position: -300px -60px;
-}
-
-.skill[data-skill-id="18"] {
-    left: 140px;
-    top: 135px;
-}
-
-.skill[data-skill-id="18"] .icon {
-    background-position: -360px -300px;
-}
-
-.skill[data-skill-id="19"] {
-    left: 100px;
-    top: 260px;
-}
-
-.skill[data-skill-id="19"] .icon {
-    background-position: -240px -180px;
-}
-
-.skill[data-skill-id="20"] {
-    left: 0;
-    top: 260px;
-}
-
-.skill[data-skill-id="20"] .icon {
-    background-position: -360px -60px;
-}
-
-.skill[data-skill-id="21"] {
-    left: 180px;
-    top: 260px;
-}
-
-.skill[data-skill-id="21"] .icon {
-    background-position: -360px -120px;
-}
-
-.skill[data-skill-id="22"] {
-    left: 140px;
-    top: 385px;
-}
-
-.skill[data-skill-id="22"] .icon {
-    background-position: -120px -240px;
-}
-
-.skill[data-skill-id="23"] {
-    left: 40px;
-    top: 385px;
-}
-
-.skill[data-skill-id="23"] .icon {
-    background-position: -480px 0;
-}
-
-.skill[data-skill-id="24"] {
-    left: 840px;
-    top: 135px;
-}
-
-.skill[data-skill-id="24"] .icon {
-    background-position: -420px -180px;
-}
-
-.skill[data-skill-id="25"] {
-    left: 840px;
-    top: 260px;
-}
-
-.skill[data-skill-id="25"] .icon {
-    background-position: -360px -180px;
-}
-
-.skill[data-skill-id="26"] {
-    left: 440px;
-    top: 520px;
-}
-
-.skill[data-skill-id="26"] .icon {
-    background-position: -120px 0;
-}
-
-.skill[data-skill-id="27"] {
-    left: 680px;
-    top: 520px;
 }
