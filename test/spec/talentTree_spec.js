@@ -11,7 +11,7 @@ requirejs.config({
   nodeRequire: require
 });
 
-describe('Talent Tree Test', function () {
+describe('Talent Tree', function () {
   var TalentTree, html_skill, all_skills;
   jsdom();
 
@@ -26,6 +26,6 @@ describe('Talent Tree Test', function () {
 
   it('should correctly call skill method', function () {
     var talent = new TalentTree(all_skills);
-    talent.skills()[0].title.should.equal(html_skill.title);
+    talent.skills()[0].id.should.equal(html_skill.id);
   });
 });
