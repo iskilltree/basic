@@ -2,40 +2,13 @@
   "skills": [
     {
       "id": 1,
-      "title": "HTML",
-      "description": "Internet主要由从服务器通过HTTP协议向浏览器发送的HTML文档组成。HTML被用来结构化信息——例如标题、段落和列表等等，也可用来在一定程度上描述文档的外观和语义。",
-      "rankDescriptions": [
-        "理解如何创建和浏览一个基本的网页"
-      ],
-      "links": [
-        {
-          "label": "无处不在的html",
-          "url": "http://www.phodal.com/blog/be-a-geek-chapter-1-anywhere-html/"
-        }
-      ]
+      "title": "HTML"
     },
     {
       "id": 2,
       "title": "CSS",
       "dependsOn": [
         1
-      ],
-      "links": [
-        {
-          "label": "无处不在的css",
-          "url": "http://www.phodal.com/blog/be-a-geek-chapter-6-anywhere-css/"
-        },
-        {
-          "label": "Can I use... (browser support)",
-          "url": "http://caniuse.com/#cats=CSS"
-        }
-      ],
-      "rankDescriptions": [
-        "熟悉基础CSS的格式和CSS盒模式"
-      ],
-      "description": "CSS能够对网页中的对象的位置排版进行像素级的精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力，并能够进行初步交互设计。",
-      "talents": [
-        "时尚"
       ]
     },
     {
@@ -43,104 +16,49 @@
       "title": "CSS 工具",
       "dependsOn": [
         2
-      ],
-      "links": [
-        {
-          "label": "Sass vs. LESS",
-          "url": "http://css-tricks.com/sass-vs-less/"
-        }
-      ],
-      "rankDescriptions": [
-        "熟悉变量和嵌套"
-      ],
-      "description": "LESS与SASS可以帮助你用变量、函数和嵌套编写更加结构化和高效的CSS"
+      ]
     },
     {
       "id": 4,
       "title": "精通Web设计",
       "dependsOn": [
         2
-      ],
-      "description": "可以将设计转化为HTML与CSS"
+      ]
     },
     {
       "id": 5,
       "title": "jQuery效果",
       "dependsOn": [
         4
-      ],
-      "links": [
-        {
-          "label": "Codecademy jQuery",
-          "url": "http://www.codecademy.com/tracks/jquery"
-        }
-      ],
-      "rankDescriptions": [
-        "熟练操作DOM模型"
-      ],
-      "description": "jQuery提供技术和方法在前端操纵网页元素。"
+      ]
     },
     {
       "id": 6,
       "title": "搜索引擎优化",
       "dependsOn": [
         1
-      ],
-      "links": [
-        {
-          "label": "每个程序员必知之SEO",
-          "url": "http://www.phodal.com/blog/every-programmer-should-know-how-seo/"
-        }
-      ],
-      "description": "SEO是指从自然搜索结果获得网站流量的技术和过程。"
+      ]
     },
     {
       "id": 7,
       "title": "搜索引擎营销(SEM)",
       "dependsOn": [
         6
-      ],
-      "links": [
-        {
-          "label": "十个你应该使用的SEO工具",
-          "url": "http://www.webgnomes.org/blog/10-seo-analysis-tools/"
-        }
-      ],
-      "description": "仅仅做到被搜索引擎收录 并且在搜索结果中排名靠前还很不够，因为取得这样的效果实际上并不一定能增加用户的点击率，更不能保证将访问者转化为顾客或者潜在顾客，因此只能说是搜索引擎营销策略中两个最基本的目标。 SEM追求最高的性价比，以最小的投入，获最大的来自搜索引擎的访问量，并产生商业价值。"
+      ]
     },
     {
       "id": 8,
       "title": "Javascript",
       "dependsOn": [
         1
-      ],
-      "rankDescriptions": [
-        "熟悉JavaScript基本语法"
-      ],
-      "links": [
-        {
-          "label": "Javascript 匿名函数与封装",
-          "url": "http://www.phodal.com/blog/javascript-anonymous-function-encapsulation/"
-        }
-      ],
-      "description": "JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。"
+      ]
     },
     {
       "id": 9,
       "title": "JS库和框架",
       "dependsOn": [
         8
-      ],
-      "rankDescriptions": [
-        "熟练使用jQuery, MooTools, Prototype, Dojo, YUI等框架简单工作"
-      ],
-      "links": [
-        {
-          "label": "一步步搭建JavaScript框架",
-          "url": "http://www.phodal.com/blog/build-javascript-framework-init-project/"
-        }
-      ],
-      "description": "当你熟悉了JavaScript之后，会发现有大量的库和框架可以完成相同的任务，加速你的开发"
+      ]
     },
     {
       "id": 10,
