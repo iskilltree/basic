@@ -18,20 +18,6 @@
           <div class="icon"></div>
         </div>
         <div class="frame">
-          <div class="tool-tip">
-            <h3 data-bind="text: title" class="skill-name"></h3>
-            <div data-bind="html: description" class="skill-description"></div>
-            <ul class="skill-links">
-              相关博客或内容:
-              <!--ko foreach: links-->
-              <li> <a data-bind="attr: { href: url }, text: label" target="_blank"></a> </li>
-              <!--/ko-->
-            </ul>
-            <hr data-bind="visible: currentRankDescription()">
-            <div data-bind="if: currentRankDescription" class="current-rank-description">当前:
-                <span data-bind="text: currentRankDescription"></span></div>
-            <div data-bind="text: helpMessage" class="help-message"></div>
-          </div>
           <div class="skill-points"><span data-bind="text: points" class="points"></span>/<span data-bind="	text: maxPoints" class="max-points"></span></div>
           <div data-bind="click: addPoint, rightClick: removePoint" class="hit-area"></div>
         </div>

@@ -1,5 +1,5 @@
-define(['lib/knockout', 'scripts/Link', 'scripts/Skill', 'scripts/Utils'],
-	function (ko, Link, Skill, Utils) {
+define(['lib/knockout', 'scripts/Skill', 'scripts/Utils'],
+	function (ko, Skill, Utils) {
 		'use strict';
 		return function (_e) {
 			var e = _e || {};
