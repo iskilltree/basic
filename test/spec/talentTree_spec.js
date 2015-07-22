@@ -28,10 +28,4 @@ describe('Talent Tree Test', function () {
     var talent = new TalentTree(all_skills);
     talent.skills()[0].title.should.equal(html_skill.title);
   });
-  it('should correctly add point', function () {
-    var talent = new TalentTree(all_skills);
-    talent.noPointsSpent().should.equal(true);
-    talent.skills()[0].addPoint();
-    talent.noPointsSpent().should.equal(false);
-  });
 });
