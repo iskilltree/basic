@@ -73,9 +73,6 @@ define(['lib/knockout', 'scripts/Link', 'scripts/Utils'],
 				return '';
 			});
 
-			self.talentSummary = ko.computed(function () {
-				return self.talents.join(', ');
-			});
 			self.currentRankDescription = ko.computed(function () {
 				return self.rankDescriptions[self.points() - 1];
 			});
